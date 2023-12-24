@@ -300,8 +300,10 @@ img {
 @media (min-width:1280px) {
     main {
         background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
-        background-position: 0 0, 28vw 10vh;
+        background-position: 0 0, 20vw 15vh;
         background-repeat: no-repeat no-repeat;
+        background-size: auto auto, 80vw 90vh;
+        min-height: 100vh;
     }
 
     h2 {
